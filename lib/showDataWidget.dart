@@ -38,6 +38,7 @@ class ShowTempData extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //Shows a ListView with 3 tiles (Sensor name, Temperatur and Humiditity)
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
